@@ -1,0 +1,12 @@
+version: "3.6"
+services:
+  app1:
+    image: truemark/dotnet-newrelic-app1:latest
+    restart: always
+    ports:
+      - 5001:5000
+  app2:
+    image: truemark/dotnet-newrelic-app2:latest
+    restart: always
+    ports:
+      - 5002:5000

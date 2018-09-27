@@ -39,8 +39,7 @@ namespace app1
             {
                 app.UseHsts();
             }
-
-            app.UseHttpsRedirection();
+//            app.UseHttpsRedirection();
             app.UseMvc();
         }
     }
